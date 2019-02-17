@@ -4635,7 +4635,7 @@ Editor.prototype = {
         this._initUploadImg();
 
         // 初始化选区，将光标定位到内容尾部
-        this.initSelection(true);
+        //this.initSelection(true);
 
         // 绑定事件
         this._bindEvent();
